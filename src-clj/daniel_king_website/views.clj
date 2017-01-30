@@ -8,7 +8,7 @@
   (html5
     [:head
       [:title "Daniel King"]
-      (include-js "/core.js")]
+      (include-js "/js/core.js")]
     [:body
       [:h1 "Hello World!"]]))
 
