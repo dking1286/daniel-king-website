@@ -10,7 +10,8 @@
       [:title "Daniel King"]
       (include-js "/js/core.js")]
     [:body
-      [:h1 "Hello World!"]]))
+      [:h1 "Hello World!"]
+      [:div#app]]))
 
 (defn not-found []
   (html5

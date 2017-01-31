@@ -7,7 +7,8 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "0.0-3211"]
                  [compojure "1.1.6"]
-                 [hiccup "1.0.4"]]
+                 [hiccup "1.0.4"]
+                 [reagent "0.6.0"]]
   :plugins [[lein-cljsbuild "1.1.5"]
             [lein-ring "0.8.7"]]
   :cljsbuild {
