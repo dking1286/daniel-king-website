@@ -1,10 +1,6 @@
 (ns daniel-king-website.components.app-container
-  (:require 
-    [reagent.core :as r]
-    [daniel-king-website.components.counter :refer [counter]]
-    [daniel-king-website.components.counter-button :refer [counter-button]]))
+  (:require [daniel-king-website.components.board-container :refer [board-container]]))
 
 (defn app-container []
   [:div
-    [counter]
-    [counter-button]])
+    [board-container]])
